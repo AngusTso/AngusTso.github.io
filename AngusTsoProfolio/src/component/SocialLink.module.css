@@ -1,0 +1,11 @@
+.social ul {
+  list-style: none;
+  padding-inline-start: 0rem;
+}
+
+.social img {
+  height: 1.5rem;
+  width: 1.5rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}

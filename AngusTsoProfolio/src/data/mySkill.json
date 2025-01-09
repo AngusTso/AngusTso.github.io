@@ -1,0 +1,221 @@
+{
+  "mySkills": [
+    {
+      "id": "1",
+      "skillCategory": "FrontEnd Development",
+      "skills": [
+        {
+          "logo": "",
+          "title": "React",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "HTML",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "CSS",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Redux",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "TailWind CSS",
+          "skillLevel": "Beginner"
+        },
+        {
+          "logo": "",
+          "title": "SASS",
+          "skillLevel": "Beginner"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "skillCategory": "Backend Development",
+      "skills": [
+        {
+          "logo": "",
+          "title": "MySQL (any other SQL)",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "ExpressJS",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Restful API",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Json-Server",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "MongoDB",
+          "skillLevel": "Beginner"
+        },
+        {
+          "logo": "",
+          "title": "Apache",
+          "skillLevel": "Beginner"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "skillCategory": "Mobile Development",
+      "skills": [
+        {
+          "logo": "",
+          "title": "React Native",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Android Studio",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Jetpack Compose",
+          "skillLevel": "Competent"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "skillCategory": "Programming",
+      "skills": [
+        {
+          "logo": "",
+          "title": "JavaScript / Node.js",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Kotlin",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Python",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "C++",
+          "skillLevel": "Beginner"
+        },
+        {
+          "logo": "",
+          "title": "C#",
+          "skillLevel": "Beginner"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "skillCategory": "Language",
+      "skills": [
+        {
+          "logo": "",
+          "title": "Cantonese",
+          "skillLevel": "Native"
+        },
+        {
+          "logo": "",
+          "title": "English",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Mandarin",
+          "skillLevel": "Proficient"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "skillCategory": "DevOps",
+      "skills": [
+        {
+          "logo": "",
+          "title": "Github",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Git",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "PowerShell",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Vite",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Docker",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Insomnia / PostMan",
+          "skillLevel": "Competent"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "skillCategory": "Misc",
+      "skills": [
+        {
+          "logo": "",
+          "title": "VSCode",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "Unity",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "LaTex",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Linux",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Jest",
+          "skillLevel": "Competent"
+        },
+        {
+          "logo": "",
+          "title": "Cypress",
+          "skillLevel": "Beginner"
+        }
+      ]
+    }
+  ]
+}

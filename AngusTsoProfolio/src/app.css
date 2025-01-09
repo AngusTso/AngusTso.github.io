@@ -1,0 +1,23 @@
+body {
+  background-color: #102937;
+  color: #dfccc5;
+}
+
+button {
+  background-color: transparent;
+  color: #dfccc5;
+  padding: 1rem;
+  border: 2px #dfccc5 solid;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #dfccc5;
+  color: black;
+}
+
+button:active {
+  padding: 1.2rem;
+  background-color: transparent;
+  color: #dfccc5;
+}

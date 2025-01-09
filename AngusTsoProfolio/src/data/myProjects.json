@@ -1,0 +1,16 @@
+{
+  "myProjects": [
+    {
+      "cover": "",
+      "title": "Profolio Site build kit",
+      "desc": "This Project enable any user to build their Profolio simply by changing the Json file inside the data folder.Although there is limited option regard to the Layout of the site but user can build their profolio site without any setup.",
+      "tags": ["React", "React-router", "HTML", "CSS"]
+    },
+    {
+      "cover": "",
+      "title": "Kansai Guide",
+      "desc": "This Project provides travel guide for user.",
+      "tags": ["React-Native"]
+    }
+  ]
+}

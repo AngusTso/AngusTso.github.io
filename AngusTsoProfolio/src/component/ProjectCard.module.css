@@ -1,0 +1,30 @@
+.cardContainer {
+  display: flex;
+  color: #ede6df;
+  padding: 0;
+  width: 60%;
+  margin: 2rem 0;
+}
+
+.cardContainer img {
+  width: 15rem;
+  height: 10rem;
+  object-fit: center;
+  align-self: flex-end;
+}
+
+.projectInfo {
+  padding: 0;
+  text-align: justify;
+  margin-left: 2rem;
+}
+
+.projectInfo h2 {
+  font-size: 1.5rem;
+  align-self: flex-start;
+  margin: 0;
+}
+
+.projectInfo p {
+  font-size: 1rem;
+}

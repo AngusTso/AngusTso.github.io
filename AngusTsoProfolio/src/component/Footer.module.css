@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #d4d6d5;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-radius: 1rem;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social img {
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+}

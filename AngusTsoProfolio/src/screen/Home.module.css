@@ -1,0 +1,64 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+.myIntro {
+  align-self: flex-end;
+}
+.myIntro h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.myIntro h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.myIntro p {
+  width: 30rem;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+.myIntro button {
+  margin-right: 1rem;
+}
+.profile {
+  align-self: center;
+}
+
+.profile img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.techContainer {
+  text-align: center;
+  margin: 2rem;
+}
+.techContainer button {
+  margin-top: 2rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 30%;
+}
+.projects {
+  margin-left: 2rem;
+  text-align: justify;
+}
+
+.projectColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
