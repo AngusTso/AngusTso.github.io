@@ -13,7 +13,7 @@ const SkillCard = ({ skillCategory, skills = [] }) => {
             <li key={skill.title} className={styles.skillList}>
               <h3>{skill.title}</h3>
               <img src={skill.logo} />
-              <h3>{skill.skillLevel}</h3>
+              <h3 className={styles.skillLevel}>{skill.skillLevel}</h3>
             </li>
           );
         })}
@@ -24,7 +24,10 @@ const SkillCard = ({ skillCategory, skills = [] }) => {
             setOpenDetail((prev) => !prev);
           }}
         >
-          {openDetail ? "Show Less" : "Show More"}
+          <span className={styles.desktopLabel}>
+            {openDetail ? "Show Less" : "Show More"}
+          </span>
+          <span className={styles.mobileLabel}>{openDetail ? "-" : "+"}</span>
         </button>
       )}
     </div>

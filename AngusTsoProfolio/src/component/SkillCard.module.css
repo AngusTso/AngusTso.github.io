@@ -27,3 +27,56 @@
   display: flex;
   justify-content: space-between;
 }
+.desktopLabel {
+  display: block;
+}
+
+.mobileLabel {
+  display: none;
+}
+@media (max-width: 800px) {
+  .skillContainer {
+    border: 2px solid #d4d6d5;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .skillContainer h2 {
+    font-size: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-align: center;
+  }
+  .skillContainer ul {
+    padding: 0;
+    margin: 0;
+  }
+  .skillLevel {
+    font-size: 0.5rem;
+    color: #f9744b;
+    border: 1px solid #f9744b;
+    padding: 1rem;
+  }
+  .skillContainer button {
+    padding: 1rem;
+  }
+
+  .skillContainer button:active {
+    padding: 1rem;
+    background-color: transparent;
+  }
+  .skillList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .desktopLabel {
+    display: none;
+  }
+
+  .mobileLabel {
+    display: block;
+  }
+}
