@@ -37,7 +37,7 @@
 @media (max-width: 800px) {
   .skillContainer {
     border: 2px solid #d4d6d5;
-    padding: 2rem;
+    width: 100%;
     margin-bottom: 1rem;
     text-align: center;
   }
@@ -48,8 +48,6 @@
     text-align: center;
   }
   .skillContainer ul {
-    padding: 0;
-    margin: 0;
   }
   .skillLevel {
     font-size: 0.5rem;

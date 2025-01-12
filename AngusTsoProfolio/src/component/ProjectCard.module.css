@@ -2,7 +2,7 @@
   display: flex;
   color: #ede6df;
   padding: 0;
-  width: 60%;
+  width: 80%;
   margin: 2rem 0;
 }
 
@@ -10,7 +10,7 @@
   width: 15rem;
   height: 10rem;
   object-fit: center;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .projectInfo {
@@ -27,4 +27,37 @@
 
 .projectInfo p {
   font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .cardContainer {
+    display: flex;
+    color: #ede6df;
+    padding: 0;
+    width: 80%;
+    margin: 2rem 0;
+  }
+
+  .cardContainer img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: center;
+    align-self: flex-start;
+  }
+
+  .projectInfo {
+    padding: 0;
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .projectInfo h2 {
+    font-size: 1rem;
+    align-self: flex-start;
+    margin: 0;
+  }
+
+  .projectInfo p {
+    font-size: 0.75rem;
+  }
 }
