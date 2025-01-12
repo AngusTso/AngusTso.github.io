@@ -3,7 +3,7 @@ import styles from "./SkillCard.module.css";
 
 const SkillCard = ({ skillCategory, skills = [] }) => {
   const [openDetail, setOpenDetail] = useState(false);
-  const displayedSkills = openDetail ? skills : skills.slice(0, 1);
+  const displayedSkills = openDetail ? skills : skills.slice(0, 2);
   return (
     <div className={styles.skillContainer}>
       <h2>{skillCategory}</h2>
