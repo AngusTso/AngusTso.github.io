@@ -34,6 +34,7 @@
 .mobileLabel {
   display: none;
 }
+
 @media (max-width: 800px) {
   .skillContainer {
     border: 2px solid #d4d6d5;
@@ -44,6 +45,8 @@
   .skillContainer h2 {
     font-size: 1rem;
     text-align: center;
+    text-decoration: none;
+    text-underline-offset: unset;
   }
   .skillContainer ul {
   }
