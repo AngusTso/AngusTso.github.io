@@ -62,3 +62,41 @@ h1 {
   flex-direction: column;
   align-items: left;
 }
+
+/*Mobile screen styling*/
+@media (max-width: 800px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .myIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .myIntro h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .myIntro h4 {
+    font-size: 1.2rem;
+  }
+  .myIntro p {
+    width: 50%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .myIntro button {
+    margin-bottom: 1rem;
+  }
+  .profile img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
