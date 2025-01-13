@@ -5,7 +5,9 @@ import ProjectCard from "../component/ProjectCard";
 const MyWork = () => {
   return (
     <div>
-      <div>You can all my project here</div>
+      <div style={{ textAlign: "center", fontSize: "2rem" }}>
+        You can all my project here
+      </div>
       {ProjectsData.myProjects.map((project) => {
         return (
           <ProjectCard

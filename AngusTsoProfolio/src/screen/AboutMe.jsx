@@ -44,7 +44,7 @@ const AboutMe = () => {
           <img src={Profile} />
           <div>
             <h3>Tso Sze Long Angus</h3>
-            <i>Bachelor of engineering in Computer Engineering (CUHK)</i>
+            <p>Bachelor of engineering in Computer Engineering (CUHK)</p>
             <div className={styles.experience}>
               <span>
                 <span className={styles.openings}>7</span>+ years of programming
