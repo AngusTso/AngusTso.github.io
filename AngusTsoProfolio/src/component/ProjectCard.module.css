@@ -39,8 +39,8 @@
   }
 
   .cardContainer img {
-    width: 13rem;
-    height: 8rem;
+    width: 10rem;
+    height: 7rem;
     object-fit: center;
     align-self: flex-start;
   }
