@@ -1,12 +1,16 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import Placeholder from "../assets/gameDevPic.avif";
-const ProjectCard = ({ cover, title, desc, tags = [] }) => {
+import { Link } from "react-router-dom";
+
+const ProjectCard = ({ cover, title, desc, tags = [], link }) => {
+  const imagePath = `${import.meta.env.BASE_URL}${cover}`;
   return (
     <div className={styles.cardContainer}>
-      <img src={Placeholder} />
+      <img src={imagePath} />
       <div className={styles.projectInfo}>
-        <h2>{title}</h2>
+        <Link className={styles.link} to={`${link}`}>
+          <h2>{title}</h2>
+        </Link>
         <p>{desc}</p>
       </div>
     </div>

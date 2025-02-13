@@ -1,16 +1,32 @@
 {
   "myProjects": [
     {
-      "cover": "",
-      "title": "Profolio Site build kit",
-      "desc": "This Project enable any user to build their Profolio simply by changing the Json file inside the data folder.Although there is limited option regard to the Layout of the site but user can build their profolio site without any setup.",
-      "tags": ["React", "React-router", "HTML", "CSS"]
+      "cover": "Logo.png",
+      "title": "Angus Tso Profolio Site",
+      "desc": "This Project is build for showcasing my professional Career.It contain my personal info, project and contact",
+      "tags": ["React", "React-router", "HTML", "CSS"],
+      "link": "https://github.com/AngusTso/AngusTso.github.io/tree/main"
     },
     {
-      "cover": "",
+      "cover": "Kansai_logo.png",
       "title": "Kansai Guide",
       "desc": "This Project provides travel guide for user.",
-      "tags": ["React-Native"]
+      "tags": ["React-Native"],
+      "link": ""
+    },
+    {
+      "cover": "splash_image.png",
+      "title": "Chiba Jets Responsive Design website",
+      "desc": "This Project is a sample website for a sport Team called ChibaJet from Japan.It showcase the use of responsive design",
+      "tags": ["HTML", "CSS"],
+      "link": "https://github.com/AngusTso/Web-dev-project/tree/main/Self%20project/Chiba%20Jets%20Sample%20(Resposive%20design)/starting"
+    },
+    {
+      "cover": "splash.png",
+      "title": "Nishodo",
+      "desc": "This Project is a sample website for a BookShop.It showcase the use of flexbox",
+      "tags": ["HTML", "CSS", "flexbox"],
+      "link": "https://github.com/AngusTso/Web-dev-project/tree/main/Self%20project/Nishodo%20(Flex%20Box)"
     }
   ]
 }

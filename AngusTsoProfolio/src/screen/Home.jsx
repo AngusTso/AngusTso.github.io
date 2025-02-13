@@ -76,6 +76,7 @@ const Home = () => {
                 title={project.title}
                 desc={project.desc}
                 tags={project.tags}
+                link={project.link}
                 key={project.title}
               />
             );

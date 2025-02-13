@@ -16,6 +16,7 @@ const MyWork = () => {
             desc={project.desc}
             tags={project.tags}
             key={project.title}
+            link={project.link}
           />
         );
       })}

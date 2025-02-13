@@ -19,6 +19,14 @@
   margin-left: 2rem;
 }
 
+.link {
+  color: #ede6df;
+}
+
+.link:hover {
+  color: #f9744b;
+}
+
 .projectInfo h2 {
   font-size: 1.5rem;
   align-self: flex-start;
