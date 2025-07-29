@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Home.module.css";
-import Profile from "../assets/Profile.jpg";
+import Profile from "../assets/Profile.jpeg";
 import { useNavigate } from "react-router-dom";
 import SocialLink from "../component/SocialLink";
 import SkillCard from "../component/SkillCard";
@@ -32,8 +32,8 @@ const Home = () => {
           <h4>Software Engineer</h4>
           <SocialLink />
           <p>
-            My forte lies in developing web applications and mobile apps,
-            leveraging technologies like React and React Native.
+            My forte lies in developing full stack web applications and mobile
+            apps, leveraging technologies like React and React Native.
           </p>
           <button onClick={() => navigate("/aboutMe")}>More about Me</button>
           <button onClick={handleDownload}>Download Resume</button>
