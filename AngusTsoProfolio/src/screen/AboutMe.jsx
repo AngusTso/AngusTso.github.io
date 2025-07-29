@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
 import gamedevPic from "../assets/gamedevPic.avif";
-import Profile from "../assets/Profile.jpg";
+import Profile from "../assets/Profile.jpeg";
 
 const AboutMe = () => {
   return (
@@ -13,7 +13,8 @@ const AboutMe = () => {
           <p>
             I am a software engineer that specialize in developing web app and
             cross-platform mobile app using React and React Native.I love
-            developing app that help people in different ways.
+            developing app that help people in different ways like studying and
+            learning.
           </p>
           <h2>Why I want be a SWE ?</h2>
           <p>

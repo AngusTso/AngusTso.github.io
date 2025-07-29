@@ -6,7 +6,7 @@ const MyWork = () => {
   return (
     <div>
       <div style={{ textAlign: "center", fontSize: "2rem" }}>
-        You can all my project here
+        You can see all my project here
       </div>
       {ProjectsData.myProjects.map((project) => {
         return (

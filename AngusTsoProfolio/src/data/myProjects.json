@@ -8,6 +8,13 @@
       "link": "https://github.com/AngusTso/AngusTso.github.io/tree/main"
     },
     {
+      "cover": "SplitApp.png",
+      "title": "Split",
+      "desc": "Split a real-time collab fullstack task management app aim at prvide student and family a easier way to organise Task",
+      "tags": ["React-Native", "Socket.io", "Node.js", "MongoDB"],
+      "link": "https://github.com/AngusTso/FamLite_Split"
+    },
+    {
       "cover": "Kansai_logo.png",
       "title": "Kansai Guide",
       "desc": "This Project provides travel guide for user.",
