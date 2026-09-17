@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./SocialLink.module.css";
 import githubLogo from "../assets/github-mark-white.png";
 import igLogo from "../assets/Instagram_Glyph_White.png";
@@ -21,7 +20,7 @@ const SocialLink = () => {
             <img src={LnWhite} />
           </Link>
           <Link to="https://leetcode.com/u/AngusKing/">
-            <img style={{ color: "white" }} src={leetCode} />
+            <img src={leetCode} />
           </Link>
         </li>
       </ul>

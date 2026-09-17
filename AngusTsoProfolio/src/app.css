@@ -1,23 +1,31 @@
+:root {
+  --color-bg: #0b1620;
+  --color-text: #e6e1db;
+  --color-muted: #8a9bab;
+  --color-accent: #2dd4bf;
+}
+
 body {
-  background-color: #102937;
-  color: #dfccc5;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 button {
   background-color: transparent;
-  color: #dfccc5;
+  color: var(--color-text);
   padding: 1rem;
-  border: 2px #dfccc5 solid;
+  border: 2px var(--color-text) solid;
   border-radius: 10px;
 }
 
 button:hover {
-  background-color: #dfccc5;
-  color: black;
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  border-color: var(--color-accent);
 }
 
 button:active {
   padding: 1.2rem;
   background-color: transparent;
-  color: #dfccc5;
+  color: var(--color-text);
 }

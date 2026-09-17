@@ -1,5 +1,5 @@
 .skillContainer {
-  border: 2px solid #d4d6d5;
+  border: 2px solid var(--color-muted);
   padding: 1rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -37,7 +37,7 @@
 
 @media (max-width: 800px) {
   .skillContainer {
-    border: 2px solid #d4d6d5;
+    border: 2px solid var(--color-muted);
     width: 100%;
     margin-bottom: 1rem;
     text-align: center;
@@ -52,8 +52,8 @@
   }
   .skillLevel {
     font-size: 0.5rem;
-    color: #f9744b;
-    border: 1px solid #f9744b;
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
     padding: 1rem;
   }
   .skillContainer button {

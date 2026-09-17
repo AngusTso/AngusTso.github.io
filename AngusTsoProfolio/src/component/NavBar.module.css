@@ -17,23 +17,22 @@
 }
 
 .nav a {
-  color: #d4d6d5;
+  color: var(--color-muted);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav a:hover {
-  color: #162939;
+  color: var(--color-accent);
   padding: 1rem;
   font-size: 1.1rem;
-  background-color: #9f8f99;
 }
 
 .nav a:active {
-  color: #9f8f99;
+  color: var(--color-bg);
   padding: 1rem;
   font-size: 1.1rem;
-  background-color: #162939;
+  background-color: var(--color-accent);
 }
 
 /*Mobile screen styling*/

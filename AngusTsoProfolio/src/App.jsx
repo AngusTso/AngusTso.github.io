@@ -1,5 +1,4 @@
-import React from "react";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./screen/Home";
 import MyWork from "./screen/MyWork";
 import AboutME from "./screen/AboutMe";
@@ -10,7 +9,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -20,7 +19,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

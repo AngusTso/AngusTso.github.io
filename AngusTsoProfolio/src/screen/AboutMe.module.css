@@ -60,7 +60,7 @@
 .openings {
   font-size: 2rem;
   font-weight: bold;
-  color: #f9744b;
+  color: var(--color-accent);
 }
 
 @media (max-width: 800px) {
@@ -130,7 +130,7 @@
   .openings {
     font-size: 1.7rem;
     font-weight: bold;
-    color: #f9744b;
+    color: var(--color-accent);
     margin: 0.5rem;
   }
 }

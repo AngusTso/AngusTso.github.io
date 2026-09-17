@@ -1,6 +1,6 @@
 .cardContainer {
   display: flex;
-  color: #ede6df;
+  color: var(--color-text);
   padding: 0;
   width: 80%;
   margin: 2rem 0;
@@ -20,11 +20,11 @@
 }
 
 .link {
-  color: #ede6df;
+  color: var(--color-text);
 }
 
 .link:hover {
-  color: #f9744b;
+  color: var(--color-accent);
 }
 
 .projectInfo h2 {
@@ -40,7 +40,7 @@
 @media (max-width: 800px) {
   .cardContainer {
     display: flex;
-    color: #ede6df;
+    color: var(--color-text);
     padding: 0;
     width: 80%;
     margin: 2rem 0;
