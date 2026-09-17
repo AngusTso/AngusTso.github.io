@@ -17,8 +17,8 @@ const Home = () => {
   const navigate = useNavigate();
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/TsoSzeLongAngus_Resume_2025.pdf";
-    link.download = "TsoSzeLongAngus_Resume.pdf";
+    link.href = `${import.meta.env.BASE_URL}TsoSzeLongAngus_2026.pdf`;
+    link.download = "TsoSzeLongAngus_2026.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -77,7 +77,6 @@ const Home = () => {
                 cover={project.cover}
                 title={project.title}
                 desc={project.desc}
-                tags={project.tags}
                 link={project.link}
                 key={project.title}
               />

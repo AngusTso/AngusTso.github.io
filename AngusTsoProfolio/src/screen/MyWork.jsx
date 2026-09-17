@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectsData from "../data/myProjects.json";
 import ProjectCard from "../component/ProjectCard";
 
@@ -14,7 +13,6 @@ const MyWork = () => {
             cover={project.cover}
             title={project.title}
             desc={project.desc}
-            tags={project.tags}
             key={project.title}
             link={project.link}
           />

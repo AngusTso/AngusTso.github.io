@@ -1,5 +1,5 @@
 import styles from "./AboutMe.module.css";
-import gamedevPic from "../assets/gamedevPic.avif";
+import gamedevPic from "../assets/gameDevPic.avif";
 import Profile from "../assets/Profile.jpeg";
 
 const AboutMe = () => {
@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div>
           <h1>About Me</h1>
           <p>
-            I’m Angus Tso, an early-career Software Engineer and a Computer Engineering graduate from The Chinese University of Hong Kong. My main experience is in full-stack web and mobile development, working across frontend interfaces, backend services, APIs, databases, authentication, and real-time communication.\n
+            I’m Angus Tso, an early-career Software Engineer and a Computer Engineering graduate from The Chinese University of Hong Kong. My main experience is in full-stack web and mobile development, working across frontend interfaces, backend services, APIs, databases, authentication, and real-time communication.
             <br />  
             I have hands-on production experience from working on a Learning Management System at the University of Hong Kong, where I worked with an Agile team to develop and maintain features for a system serving around 400 users. Outside of professional work, I have also built my own web and mobile applications, which has given me the opportunity to explore software development from both a technical and product perspective.
           </p>
@@ -18,7 +18,7 @@ const AboutMe = () => {
           <p>
             My interest in software development started when I was young. When I was eleven, I played a game called Game Dev Story by Kairosoft. The game was about developing games, managing a company, and deciding what kind of products to create.
             <br />
-            What fascinated me wasn't simply the idea of making games. It was the freedom to take an idea, make decisions about it, and eventually turn it into something that other people could use.
+            What fascinated me wasn&apos;t simply the idea of making games. It was the freedom to take an idea, make decisions about it, and eventually turn it into something that other people could use.
             <br />
             That idea has stayed with me ever since. Software engineering gives me a similar kind of creative freedom: I can start with a problem or an idea and gradually turn it into something real.
           </p>
@@ -45,7 +45,7 @@ const AboutMe = () => {
                 experience
               </span>
               <span>
-                <span className={styles.openings}>4</span>+ years of developing
+                <span className={styles.openings}>5</span>+ years of developing
                 software experience
               </span>
               <span>
@@ -53,7 +53,7 @@ const AboutMe = () => {
                 certificate earned (offline/online)
               </span>
               <span>
-                <span className={styles.openings}>124</span> Leetcode questions
+                <span className={styles.openings}>191</span> Leetcode questions
                 completed
               </span>
             </div>

@@ -12,7 +12,7 @@ const SkillCard = ({ skillCategory, skills = [] }) => {
           return (
             <li key={skill.title} className={styles.skillList}>
               <h3>{skill.title}</h3>
-              <img src={skill.logo} />
+              {skill.logo && <img src={skill.logo} alt="" />}
               <h3 className={styles.skillLevel}>{skill.skillLevel}</h3>
             </li>
           );

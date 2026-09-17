@@ -5,7 +5,7 @@ import AboutME from "./screen/AboutMe";
 import NotFound from "./screen/NotFound";
 import Layout from "./Layout/Layout";
 import Resource from "./screen/Resource";
-import "./App.css";
+import "./app.css";
 
 const App = () => {
   return (
