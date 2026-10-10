@@ -13,10 +13,10 @@ const SocialLink = () => {
           <Link to="https://github.com/AngusTso/">
             <img src={githubLogo} />
           </Link>
-          <Link to="https://github.com/AngusTso/">
+          <Link to="https://www.instagram.com/kb24_angus.theking_kb24/">
             <img src={igLogo} />
           </Link>
-          <Link to="https://github.com/AngusTso/">
+          <Link to="https://hk.linkedin.com/in/angus-tso-a54622325">
             <img src={LnWhite} />
           </Link>
           <Link to="https://leetcode.com/u/AngusKing/">

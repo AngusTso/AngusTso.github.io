@@ -1,11 +1,19 @@
 {
   "myProjects": [
     {
-      "cover": "Logo.png",
-      "title": "Angus Tso Profolio Site",
-      "desc": "This Project is build for showcasing my professional Career.It contain my personal info, project and contact",
-      "tags": ["React", "React-router", "HTML", "CSS"],
-      "link": "https://github.com/AngusTso/AngusTso.github.io/tree/main"
+      "cover": "",
+      "title": "CreatorFlow.AI",
+      "desc": "CreatorFlow AI is a small set of free tools for creators: quote a project in seconds, get a first draft of your business terms and a quick read on any voice scripts",
+      "tags": [
+        "RAG",
+        "Prompt engineering",
+        "LLM API",
+        "Vector search plus Database",
+        "AI tool calling",
+        "Vue",
+        "python"
+      ],
+      "link": "https://creatorflow-ai-bice.vercel.app/"
     },
     {
       "cover": "SplitApp.png",
@@ -13,6 +21,20 @@
       "desc": "Split a real-time collab fullstack task management app aim at prvide student and family a easier way to organise Task",
       "tags": ["React-Native", "Socket.io", "Node.js", "MongoDB"],
       "link": "https://github.com/AngusTso/FamLite_Split"
+    },
+    {
+      "cover": "",
+      "title": "Code Flow",
+      "desc": "Three standalone, interactive HTML prototypes exploring different ways to support an AI-assisted creative workflow — from guided creation to professional editing and open-ended exploration.",
+      "tags": ["Vuejs", "tailwindCSS", "Vite"],
+      "link": "https://code-flow-green.vercel.app"
+    },
+    {
+      "cover": "Logo.png",
+      "title": "Angus Tso Profolio Site",
+      "desc": "This Project is build for showcasing my professional Career.It contain my personal info, project and contact",
+      "tags": ["React", "React-router", "HTML", "CSS"],
+      "link": "https://github.com/AngusTso/AngusTso.github.io/tree/main"
     },
     {
       "cover": "Kansai_logo.png",

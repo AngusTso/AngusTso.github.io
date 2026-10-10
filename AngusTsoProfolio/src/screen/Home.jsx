@@ -29,13 +29,18 @@ const Home = () => {
       <div className={styles.intro}>
         <div className={styles.myIntro}>
           <h1>Angus Tso</h1>
-          <h4>Software Engineer / Full Stack Developer</h4>
+          <h4>Software Engineer</h4>
           <SocialLink />
           <p>
-          I’m an early-career Software Engineer with hands-on production experience building web and mobile applications across frontend, backend, APIs, and databases
-          <br />
-          <br />
-          I enjoy turning ideas into working software and learning across different areas of technology. I’m currently looking to grow as a versatile Software Engineer, with a particular interest in full-stack development and the application of AI to software products.
+            I’m an early-career Software Engineer with hands-on production
+            experience building web and mobile applications across frontend,
+            backend, APIs, and databases
+            <br />
+            <br />I enjoy turning ideas into working software and learning
+            across different areas of technology. I’m currently looking to grow
+            as a versatile Software Engineer, with a particular interest in
+            full-stack development and the application of AI to software
+            products.
           </p>
           <button onClick={() => navigate("/aboutMe")}>More about Me</button>
           <button onClick={handleDownload}>Download Resume</button>

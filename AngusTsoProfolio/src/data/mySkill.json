@@ -6,7 +6,12 @@
       "skills": [
         {
           "logo": "",
-          "title": "React",
+          "title": "ReactJS",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "VueJS",
           "skillLevel": "Proficient"
         },
         {
@@ -42,7 +47,12 @@
       "skills": [
         {
           "logo": "",
-          "title": "MySQL (any other SQL)",
+          "title": "PostgreSQL",
+          "skillLevel": "Proficient"
+        },
+        {
+          "logo": "",
+          "title": "LLM API Intergration",
           "skillLevel": "Proficient"
         },
         {
@@ -102,6 +112,12 @@
           "title": "JavaScript / Node.js",
           "skillLevel": "Proficient"
         },
+
+        {
+          "logo": "",
+          "title": "Python",
+          "skillLevel": "Proficient"
+        },
         {
           "logo": "",
           "title": "Kotlin",
@@ -109,13 +125,8 @@
         },
         {
           "logo": "",
-          "title": "Python",
-          "skillLevel": "Competent"
-        },
-        {
-          "logo": "",
           "title": "C++",
-          "skillLevel": "Beginner"
+          "skillLevel": "Competent"
         },
         {
           "logo": "",
