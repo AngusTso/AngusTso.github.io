@@ -11,7 +11,8 @@
         "Vector search plus Database",
         "AI tool calling",
         "Vue",
-        "python"
+        "python",
+        "cloud deployment"
       ],
       "link": "https://creatorflow-ai-bice.vercel.app/"
     },
@@ -26,7 +27,7 @@
       "cover": "",
       "title": "Code Flow",
       "desc": "Three standalone, interactive HTML prototypes exploring different ways to support an AI-assisted creative workflow — from guided creation to professional editing and open-ended exploration.",
-      "tags": ["Vuejs", "tailwindCSS", "Vite"],
+      "tags": ["Vuejs", "tailwindCSS", "Vite", "cloud deployment"],
       "link": "https://code-flow-green.vercel.app"
     },
     {
