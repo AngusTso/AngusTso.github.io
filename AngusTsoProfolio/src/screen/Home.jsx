@@ -27,7 +27,20 @@ const Home = () => {
     <div>
       <div className={styles.intro}>
         <div className={styles.myIntro}>
-          <h1>Angus Tso</h1>
+          <div className={styles.nameRow}>
+            <h1>Angus Tso</h1>
+            <a
+              href="https://www.visitorbadge.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className={styles.visitorBadge}
+                src="https://api.visitorbadge.io/api/visitors?path=angustso.github.io&label=Visits&labelColor=%238a9bab&countColor=%232dd4bf"
+                alt="Number of visits to this site"
+              />
+            </a>
+          </div>
           <h4>Software Engineer</h4>
           <SocialLink />
           <p>
