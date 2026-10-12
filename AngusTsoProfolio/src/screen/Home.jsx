@@ -4,7 +4,7 @@ import Profile from "../assets/Profile.jpeg";
 import { useNavigate } from "react-router-dom";
 import SocialLink from "../component/SocialLink";
 import SkillCard from "../component/SkillCard";
-import ProjectCard from "../component/ProjectCard";
+import ProjectGallery from "../component/ProjectGallery";
 import TechStackData from "../data/mySkill.json";
 import ProjectsData from "../data/myProjects.json";
 
@@ -13,7 +13,6 @@ const Home = () => {
   const displayedTechStack = viewMore
     ? TechStackData.mySkills
     : TechStackData.mySkills.slice(0, 1);
-  const displayedProjectsData = ProjectsData.myProjects.slice(0, 2);
   const navigate = useNavigate();
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -75,19 +74,7 @@ const Home = () => {
       </div>
       <div className={styles.projects}>
         <h1>Highlighted Project</h1>
-        <div className={styles.projectColumn}>
-          {displayedProjectsData.map((project) => {
-            return (
-              <ProjectCard
-                cover={project.cover}
-                title={project.title}
-                desc={project.desc}
-                link={project.link}
-                key={project.title}
-              />
-            );
-          })}
-        </div>
+        <ProjectGallery projects={ProjectsData.myProjects} />
         <button onClick={() => navigate("/myWork")}>View More Project</button>
       </div>
     </div>

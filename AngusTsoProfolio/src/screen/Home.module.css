@@ -57,12 +57,6 @@ h1 {
   text-align: justify;
 }
 
-.projectColumn {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-}
-
 /*Mobile screen styling*/
 @media (max-width: 800px) {
   .intro {
@@ -112,9 +106,4 @@ h1 {
     align-items: center;
   }
 
-  .projectColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
 }
