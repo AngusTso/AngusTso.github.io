@@ -9,7 +9,8 @@
 .cardContainer img {
   width: 15rem;
   height: 10rem;
-  object-fit: center;
+  flex-shrink: 0;
+  object-fit: cover;
   align-self: flex-start;
 }
 
@@ -49,7 +50,8 @@
   .cardContainer img {
     width: 10rem;
     height: 7rem;
-    object-fit: center;
+    flex-shrink: 0;
+    object-fit: cover;
     align-self: flex-start;
   }
 
