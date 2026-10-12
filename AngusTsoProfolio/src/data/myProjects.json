@@ -1,7 +1,7 @@
 {
   "myProjects": [
     {
-      "cover": "",
+      "cover": "creatorflow.ai.png",
       "title": "CreatorFlow.AI",
       "desc": "CreatorFlow AI is a small set of free tools for creators: quote a project in seconds, get a first draft of your business terms and a quick read on any voice scripts",
       "tags": [
@@ -24,7 +24,7 @@
       "link": "https://github.com/AngusTso/FamLite_Split"
     },
     {
-      "cover": "",
+      "cover": "codeflowIcon.png",
       "title": "Code Flow",
       "desc": "Three standalone, interactive HTML prototypes exploring different ways to support an AI-assisted creative workflow — from guided creation to professional editing and open-ended exploration.",
       "tags": ["Vuejs", "tailwindCSS", "Vite", "cloud deployment"],
