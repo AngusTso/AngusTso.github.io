@@ -1,9 +1,16 @@
 {
   "myProjects": [
     {
+      "cover": "https://blueaoi-handmade.netlify.app/og-image.jpg",
+      "title": "Blue Aoi Handmade Shop",
+      "desc": "An online shop for handmade bracelets and original accessories designed and strung in Hong Kong. Customers can browse products and order via WhatsApp, while a Netlify-hosted CMS admin panel supports inventory management.",
+      "tags": ["E-commerce", "Netlify", "CMS", "Inventory management"],
+      "link": "https://blueaoi-handmade.netlify.app/"
+    },
+    {
       "cover": "creatorflow.ai.png",
       "title": "CreatorFlow.AI",
-      "desc": "CreatorFlow AI is a small set of free tools for creators: quote a project in seconds, get a first draft of your business terms and a quick read on any voice scripts",
+      "desc": "An AI assistant for creators that streamlines client communication with project quote estimates, first-draft business terms, and voice-script analysis. Built with Vue.js and Python, it combines LLM APIs, retrieval-augmented generation (RAG), vector search, prompt engineering, and AI tool calling.",
       "tags": [
         "RAG",
         "Prompt engineering",
@@ -19,22 +26,22 @@
     {
       "cover": "SplitApp.png",
       "title": "Split",
-      "desc": "Split a real-time collab fullstack task management app aim at prvide student and family a easier way to organise Task",
+      "desc": "A lightweight mobile task-management app for families and small groups. Group leaders can create tasks and assign them to members manually or automatically, while real-time collaboration keeps shared task lists in sync. Built with React Native, Node.js, MongoDB, and Socket.io.",
       "tags": ["React-Native", "Socket.io", "Node.js", "MongoDB"],
       "link": "https://github.com/AngusTso/FamLite_Split"
     },
     {
       "cover": "codeflowIcon.png",
       "title": "Code Flow",
-      "desc": "Three standalone, interactive HTML prototypes exploring different ways to support an AI-assisted creative workflow — from guided creation to professional editing and open-ended exploration.",
+      "desc": "A set of three standalone, interactive prototypes exploring different approaches to an AI-assisted creative workflow: a guided mobile creation flow, a professional editing workspace, and an open-ended idea canvas. Built with Vue.js, Tailwind CSS, and Vite; AI and media-generation actions are simulated to demonstrate the interface, not a production generation service.",
       "tags": ["Vuejs", "tailwindCSS", "Vite", "cloud deployment"],
       "link": "https://code-flow-green.vercel.app"
     },
     {
       "cover": "Logo.png",
-      "title": "Angus Tso Profolio Site",
-      "desc": "This Project is build for showcasing my professional Career.It contain my personal info, project and contact",
-      "tags": ["React", "React-router", "HTML", "CSS"],
+      "title": "Angus Tso Portfolio Site",
+      "desc": "A responsive personal portfolio built with React, React Router, Vite, JavaScript, and CSS. It brings together my introduction, background, selected projects, and resource links in one site, with separate pages for the home, about, work, and resources sections.",
+      "tags": ["React", "React Router", "Vite", "JavaScript", "CSS"],
       "link": "https://github.com/AngusTso/AngusTso.github.io/tree/main"
     },
     {

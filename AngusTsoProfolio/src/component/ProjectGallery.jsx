@@ -46,7 +46,11 @@ const ProjectGallery = ({ projects }) => {
         {projects.map((project) => {
           const cover = (
             <img
-              src={`${import.meta.env.BASE_URL}${project.cover}`}
+              src={
+                project.cover.startsWith("https://")
+                  ? project.cover
+                  : `${import.meta.env.BASE_URL}${project.cover}`
+              }
               alt={project.title}
             />
           );

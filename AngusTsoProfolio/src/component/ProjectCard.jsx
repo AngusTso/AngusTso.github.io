@@ -2,7 +2,9 @@ import styles from "./ProjectCard.module.css";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ cover, title, desc, link }) => {
-  const imagePath = `${import.meta.env.BASE_URL}${cover}`;
+  const imagePath = cover.startsWith("https://")
+    ? cover
+    : `${import.meta.env.BASE_URL}${cover}`;
   return (
     <div className={styles.cardContainer}>
       <img src={imagePath} />

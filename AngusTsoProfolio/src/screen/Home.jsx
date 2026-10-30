@@ -29,19 +29,20 @@ const Home = () => {
         <div className={styles.myIntro}>
           <div className={styles.nameRow}>
             <h1>Angus Tso</h1>
-            <a
-              href="https://www.visitorbadge.io"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className={styles.visitorBadge}
-                src="https://api.visitorbadge.io/api/visitors?path=angustso.github.io&label=Visits&labelColor=%238a9bab&countColor=%232dd4bf"
-                alt="Number of visits to this site"
-              />
-            </a>
           </div>
           <h4>Software Engineer</h4>
+          <a
+            href="https://www.visitorbadge.io"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.badgeLink}
+          >
+            <img
+              className={styles.visitorBadge}
+              src="https://api.visitorbadge.io/api/visitors?path=angustso.github.io&label=Visits&labelColor=%238a9bab&countColor=%232dd4bf"
+              alt="Number of visits to this site"
+            />
+          </a>
           <SocialLink />
           <p>
             I’m an early-career Software Engineer with hands-on production
